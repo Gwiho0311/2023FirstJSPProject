@@ -12,7 +12,8 @@
 
     String fname = request.getParameter("fname");
     String lname = request.getParameter("lname");
-    String age = request.getParameter("age");
+    String ageString = request.getParameter("age");
+    Integer age = Integer.parseInt(ageString);
     String nickname = request.getParameter("nickname");
     String email = request.getParameter("email");
     String address = request.getParameter("address");
@@ -31,11 +32,11 @@
     FirstName : <%=fname%><br/>
     LastName : <%=lname%><br/>
     Age : <%=age%><br/>
+    NickName : <%=nickname%><br/>
     Email : <%=email%><br/>
     Address : <%=address%><br/>
     PhoneNumber : <%=number%><br/>
     University : <%=university%><br/>
-    LastName : <%=lname%><br/>
     Major1 : <%=major1%><br/>
     Major2 : <%=major2%><br/>
     <br/>

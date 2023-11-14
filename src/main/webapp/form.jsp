@@ -17,7 +17,7 @@
     <label for="lname">이름:</label><br>
     <input type="text" id="lname" name="lname" value="귀호"><br>
     <label for="age">나이:</label><br>
-    <input type="text" id="age" name="age" value="20"><br>
+    <input type="number" id="age" name="age" value="20"><br>
     <label for="nickname">별명:</label><br>
     <input type="text" id="nickname" name="nickname" value="nickname"><br>
     <label for="email">이메일:</label><br>
